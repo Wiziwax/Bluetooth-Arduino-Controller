@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_weight="1" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/blueblack"
+    android:orientation="vertical"
+    android:id="@+id/RLSwitchPage">
+
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/LinearLayoutTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:background="@drawable/switch_title"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:elevation="5dp"-->
+<!--        >-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="45dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_height="45dp"-->
+<!--            android:src="@drawable/chestnut"-->
+<!--            android:layout_marginLeft="12dp"-->
+
+
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_marginLeft="19dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Bluetooth Controls"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:textSize="20sp"/>-->
+
+
+<!--    </LinearLayout>-->
+
+
+
+<!--    &lt;!&ndash;    Start of Relative Layout 1&ndash;&gt;-->
+<!--    <RelativeLayout-->
+
+<!--        android:background="@drawable/switch_gradient"-->
+<!--        android:id="@+id/RLSwitch1"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_below="@+id/LinearLayoutTitle">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_1"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:contentDescription="Visual LED"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:src="@drawable/ic_baseline_power_settings_new_24" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/switch1"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_toRightOf="@+id/img_1"-->
+<!--            android:singleLine="true"-->
+<!--            android:text="Control1"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="23sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textViewInfo"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/switch1"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_toRightOf="@+id/img_1"-->
+<!--            android:text="State"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <Switch-->
+<!--            android:id="@+id/buttonToggle"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:checked="false"-->
+<!--            android:thumb="@drawable/chestnutswitch"-->
+<!--            android:thumbTextPadding="4dp"-->
+<!--            tools:ignore="UseSwitchCompatOrMaterialXml" />-->
+<!--    </RelativeLayout>-->
+<!--    &lt;!&ndash;    End of Relative Layout 1&ndash;&gt;-->
+
+
+
+<!--    &lt;!&ndash;    Start of Relative Layout 2&ndash;&gt;-->
+<!--    <RelativeLayout-->
+
+<!--        android:background="@drawable/switch_gradient"-->
+<!--        android:id="@+id/RLSwitch2"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_below="@+id/RLSwitch1">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_2"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:src="@drawable/ic_baseline_power_settings_new_24" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/switch2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_toRightOf="@+id/img_2"-->
+<!--            android:singleLine="true"-->
+<!--            android:text="Control2"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="23sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textViewInfo2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/switch2"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_toRightOf="@+id/img_2"-->
+<!--            android:text="State"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <Switch-->
+<!--            android:id="@+id/buttonToggle2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:checked="false"-->
+<!--            android:thumb="@drawable/chestnutswitch"-->
+<!--            android:thumbTextPadding="4dp"-->
+<!--            tools:ignore="UseSwitchCompatOrMaterialXml" />-->
+<!--    </RelativeLayout>-->
+<!--    &lt;!&ndash;    End of Relative Layout 2&ndash;&gt;-->
+
+
+<!--    &lt;!&ndash;   Start of Relative Layout #3&ndash;&gt;-->
+<!--    <RelativeLayout-->
+
+<!--        android:background="@drawable/switch_gradient"-->
+<!--        android:id="@+id/RLSwitch3"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_below="@+id/RLSwitch2">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_3"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:src="@drawable/ic_baseline_power_settings_new_24" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/switch3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_toRightOf="@+id/img_3"-->
+<!--            android:singleLine="true"-->
+<!--            android:text="Control3"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="23sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textViewInfo3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/switch3"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_toRightOf="@+id/img_3"-->
+<!--            android:text="State"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <Switch-->
+<!--            android:id="@+id/buttonToggle3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:checked="false"-->
+<!--            android:thumb="@drawable/chestnutswitch"-->
+<!--            android:thumbTextPadding="4dp"-->
+<!--            tools:ignore="UseSwitchCompatOrMaterialXml" />-->
+<!--    </RelativeLayout>-->
+<!--    &lt;!&ndash;    End of Relative Layout 3&ndash;&gt;-->
+
+
+<!--    &lt;!&ndash;    Start of Relative Layout 4&ndash;&gt;-->
+<!--    <RelativeLayout-->
+
+<!--        android:background="@drawable/switch_gradient"-->
+<!--        android:id="@+id/RLSwitch4"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_below="@+id/RLSwitch3">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_4"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:src="@drawable/ic_baseline_power_settings_new_24" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/switch4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_toRightOf="@+id/img_4"-->
+<!--            android:singleLine="true"-->
+<!--            android:text="Control4"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="23sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textViewInfo4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/switch4"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_toRightOf="@+id/img_4"-->
+<!--            android:text="State"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <Switch-->
+<!--            android:id="@+id/buttonToggle4"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:checked="false"-->
+<!--            android:thumb="@drawable/chestnutswitch"-->
+<!--            android:thumbTextPadding="4dp"-->
+<!--            tools:ignore="UseSwitchCompatOrMaterialXml" />-->
+<!--    </RelativeLayout>-->
+
+<!--    &lt;!&ndash;    End of Relative Layout 4&ndash;&gt;-->
+
+
+<!--    &lt;!&ndash;    Start of Relative Layout 5&ndash;&gt;-->
+<!--    <RelativeLayout-->
+
+<!--        android:background="@drawable/switch_gradient"-->
+<!--        android:id="@+id/RLSwitch5"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_below="@+id/RLSwitch4">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_5"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:src="@drawable/ic_baseline_power_settings_new_24" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/switch5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_toRightOf="@+id/img_5"-->
+<!--            android:singleLine="true"-->
+<!--            android:text="Control5"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="23sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textViewInfo5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/switch5"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_toRightOf="@+id/img_5"-->
+<!--            android:text="State"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <Switch-->
+<!--            android:id="@+id/buttonToggle5"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:checked="false"-->
+<!--            android:thumb="@drawable/chestnutswitch"-->
+<!--            android:thumbTextPadding="4dp"-->
+<!--            tools:ignore="UseSwitchCompatOrMaterialXml" />-->
+<!--    </RelativeLayout>-->
+<!--    &lt;!&ndash;    End of Relative Layout 5&ndash;&gt;-->
+
+<!--    &lt;!&ndash;    Start of Relative Layout 6&ndash;&gt;-->
+<!--    <RelativeLayout-->
+
+<!--        android:background="@drawable/switch_gradient"-->
+<!--        android:id="@+id/RLSwitch6"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_below="@+id/RLSwitch5">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_6"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:src="@drawable/ic_baseline_power_settings_new_24" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/switch6"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_toRightOf="@+id/img_6"-->
+<!--            android:singleLine="true"-->
+<!--            android:text="Control6"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="23sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textViewInfo6"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/switch6"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_toRightOf="@+id/img_6"-->
+<!--            android:text="State"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <Switch-->
+<!--            android:id="@+id/text"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:checked="false"-->
+<!--            android:thumb="@drawable/chestnutswitch"-->
+<!--            android:thumbTextPadding="4dp"-->
+<!--            tools:ignore="UseSwitchCompatOrMaterialXml" />-->
+<!--    </RelativeLayout>-->
+<!--    &lt;!&ndash;    End of Relative Layout 6&ndash;&gt;-->
+
+<!--    &lt;!&ndash;    Start of Relative Layout 7&ndash;&gt;-->
+<!--    <RelativeLayout-->
+
+<!--        android:background="@drawable/switch_gradient"-->
+<!--        android:id="@+id/RLSwitch7"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_below="@+id/RLSwitch6">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/img_7"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:src="@drawable/ic_baseline_power_settings_new_24" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/switch7"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_toRightOf="@+id/img_7"-->
+<!--            android:singleLine="true"-->
+<!--            android:text="Control7"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="23sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textViewInfo7"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/switch7"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_toRightOf="@+id/img_7"-->
+<!--            android:text="State"-->
+<!--            android:textColor="@color/grey"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <Switch-->
+<!--            android:id="@+id/buttonToggle7"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:checked="false"-->
+<!--            android:thumb="@drawable/chestnutswitch"-->
+<!--            android:thumbTextPadding="4dp"-->
+<!--            tools:ignore="UseSwitchCompatOrMaterialXml" />-->
+<!--    </RelativeLayout>-->
+
+<!--    &lt;!&ndash;    End of Relative Layout 7&ndash;&gt;-->
+
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Far away from home?"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_below="@id/RLSwitch7"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:fontFamily="@font/birch"-->
+<!--        android:layout_toLeftOf="@id/clickHere"-->
+<!--        android:layout_marginRight="4dp"/>-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/clickHere"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/RLSwitch7"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:text="Click Here"-->
+<!--        android:textColor="#E91E63"-->
+<!--        android:textSize="20sp"-->
+<!--        android:fontFamily="@font/birch"-->
+<!--        android:layout_marginRight="15dp"/>-->
+
+
+
+</RelativeLayout>

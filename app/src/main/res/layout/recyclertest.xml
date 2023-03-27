@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_weight="1" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/yellow3"
+    android:orientation="vertical"
+    android:id="@+id/RLswitchPage">
+
+    <!--    Start of Relative Layout 1-->
+    <RelativeLayout
+
+        android:background="@drawable/switch_gradient"
+        android:id="@+id/RLSwitch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:background="@color/colorOff"
+        android:layout_height="60dp"
+        android:id="@+id/img_1"
+        android:contentDescription="Visual LED"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_1"
+        android:singleLine="true"
+        android:text="Switch1"
+        android:textColorHint="@color/grey"
+        android:layout_marginLeft="5dp"
+
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/state1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch1"
+        android:layout_toRightOf="@+id/img_1"
+        android:layout_marginLeft="5dp"
+        android:text="State"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    </RelativeLayout>
+    <!--    Start of Relative Layout 1-->
+
+    <!--    Start of Relative Layout 2-->
+    <RelativeLayout
+
+        android:background="@drawable/switch_gradient"
+        android:layout_below="@id/RLSwitch1"
+        android:id="@+id/RLSwitch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:background="@color/colorOff"
+            android:layout_height="60dp"
+            android:id="@+id/img_2"
+            android:contentDescription="Visual LED"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_2"
+            android:singleLine="true"
+            android:text="Switch2"
+            android:textColorHint="@color/grey"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/state2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/switch2"
+            android:layout_toRightOf="@+id/img_2"
+            android:layout_marginLeft="5dp"
+            android:text="State"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+    <!--    End of Relative Layout 2-->
+
+
+    <!--   Start of Relative Layout #3-->
+    <RelativeLayout
+
+        android:background="@drawable/switch_gradient"
+        android:layout_below="@id/RLSwitch2"
+        android:id="@+id/RLSwitch3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:background="@color/colorOff"
+            android:layout_height="60dp"
+            android:id="@+id/img_3"
+            android:contentDescription="Visual LED"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/switch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_3"
+            android:singleLine="true"
+            android:text="Switch3"
+            android:textColorHint="@color/grey"
+            android:layout_marginLeft="5dp"
+
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/state3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/switch3"
+            android:layout_toRightOf="@+id/img_3"
+            android:layout_marginLeft="5dp"
+            android:text="State"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+    <!--    End of Relative Layout 2-->
+
+
+    <!--    Start of Relative Layout 3-->
+    <RelativeLayout
+
+        android:background="@drawable/switch_gradient"
+        android:layout_below="@id/RLSwitch3"
+        android:id="@+id/RLSwitch4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:background="@color/colorOff"
+            android:layout_height="60dp"
+            android:id="@+id/img_4"
+            android:contentDescription="Visual LED"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/switch4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_4"
+            android:singleLine="true"
+            android:text="Switch4"
+            android:textColorHint="@color/grey"
+            android:layout_marginLeft="5dp"
+
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/state4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/switch4"
+            android:layout_toRightOf="@+id/img_4"
+            android:layout_marginLeft="5dp"
+            android:text="State"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+    <!--    End of Relative Layout 4-->
+
+
+    <!--    Start of Relative Layout 5-->
+    <RelativeLayout
+        android:layout_below="@id/RLSwitch4"
+        android:id="@+id/RLSwitch5"
+        android:background="@drawable/switch_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:background="@color/colorOff"
+            android:layout_height="60dp"
+            android:id="@+id/img_5"
+            android:contentDescription="Visual LED"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/switch5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_5"
+            android:singleLine="true"
+            android:text="Switch5"
+            android:textColorHint="@color/grey"
+            android:layout_marginLeft="5dp"
+
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/state5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/switch5"
+            android:layout_toRightOf="@+id/img_5"
+            android:layout_marginLeft="5dp"
+            android:text="State"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+    <!--    End of Relative Layout 5-->
+
+    <!--    Start of Relative Layout 6-->
+    <RelativeLayout
+
+        android:background="@drawable/switch_gradient"
+        android:layout_below="@id/RLSwitch5"
+
+        android:id="@+id/RLSwitch6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:background="@color/colorOff"
+            android:layout_height="60dp"
+            android:id="@+id/img_6"
+            android:contentDescription="Visual LED"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/switch6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_6"
+            android:singleLine="true"
+            android:text="Switch6"
+            android:textColorHint="@color/grey"
+            android:layout_marginLeft="5dp"
+
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/state6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/switch6"
+            android:layout_toRightOf="@+id/img_6"
+            android:layout_marginLeft="5dp"
+            android:text="State"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+    <!--    End of Relative Layout 6-->
+
+<!--    Start of Relative Layout 7-->
+    <RelativeLayout
+
+        android:layout_below="@+id/RLSwitch6"
+        android:id="@+id/RLSwitch7"
+        android:background="@drawable/switch_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:background="@color/colorOff"
+            android:layout_height="60dp"
+            android:id="@+id/img_7"
+            android:contentDescription="Visual LED"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/switch7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_7"
+            android:singleLine="true"
+            android:text="Switch7"
+            android:textColorHint="@color/grey"
+            android:layout_marginLeft="5dp"
+
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/state7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/switch7"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/img_7"
+            android:text="State"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+<!--    End of Relative Layout 7-->
+
+</RelativeLayout>
